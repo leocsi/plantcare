@@ -1,0 +1,40 @@
+<Tasks>
+    <Plant>
+        <PlantName>Snake plant</PlantName>
+        <PlantPhoto>snake.jpg</PlantPhoto>
+        <RoomID>1</RoomID>
+        <PlantTasks>
+            <Task>
+                <TaskName>Water</TaskName>
+                <Amount>1L</Amount>
+            </Task>
+        </PlantTasks>
+    </Plant>
+    <Plant>
+        <PlantName>Cacti</PlantName>
+        <PlantPhoto>cacti.jpg</PlantPhoto>
+        <RoomID>2</RoomID>
+        <PlantTasks>
+            <Task>
+                <TaskName>Repot</TaskName>
+            </Task>
+        </PlantTasks>
+    </Plant>
+    <Plant>
+        <PlantName>Rhododendron</PlantName>
+        <PlantPhoto>rhod.jpg</PlantPhoto>
+        <RoomID>1</RoomID>
+        <PlantTasks>
+            <Task>
+                <TaskName>Repot</TaskName>
+            </Task>
+            <Task>
+                <TaskName>Fertilize</TaskName>
+            </Task>
+            <Task>
+                <TaskName>Water</TaskName>
+                <Amount>1L</Amount>
+            </Task>
+        </PlantTasks>
+    </Plant>
+</Tasks>

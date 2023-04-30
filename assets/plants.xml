@@ -1,7 +1,7 @@
 <Tasks>
     <Plant>
         <PlantName>Snake plant</PlantName>
-        <PlantPhoto>snake.jpg</PlantPhoto>
+        <PlantPhoto>snake_plant.jfif</PlantPhoto>
         <RoomID>1</RoomID>
         <PlantTasks>
             <Task>

@@ -33,9 +33,12 @@ class CarouselPlantItem extends StatelessWidget{
                 margin: const EdgeInsets.all(5.0),
                 child:Text(name)) ,
           ),
-          const Align(
+          Align(
             alignment: AlignmentDirectional.centerStart,
-            child: Icon(Icons.photo_album, size: 100.0,)
+            child: Container(
+              width: 100,
+              height: 120,
+              child: Image.asset('assets/$photo'))
           ),
           Align(
             alignment: AlignmentDirectional.centerEnd,

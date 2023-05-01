@@ -1,0 +1,47 @@
+<Rooms>
+    <Room>
+        <RoomID>0</RoomID>
+        <RoomName>Bedroom</RoomName>
+        <RoomTemp>19</RoomTemp>
+        <RoomHumidity>15</RoomHumidity>
+        <RoomOxygen>21</RoomOxygen>
+        <RoomHappy>100</RoomHappy>
+        <RoomTasks>
+            <Task>
+                <TaskName>Open windows</TaskName>
+            </Task>
+            <Task>
+                <TaskName>Natural light</TaskName>
+            </Task>
+        </RoomTasks>
+    </Room>
+    <Room>
+        <RoomID>1</RoomID>
+        <RoomName>Bathroom</RoomName>
+        <RoomTemp>21</RoomTemp>
+        <RoomHumidity>65</RoomHumidity>
+        <RoomOxygen>20</RoomOxygen>
+        <RoomHappy>75</RoomHappy>
+        <RoomTasks>
+            <Task>
+                <TaskName>Open windows</TaskName>
+            </Task>
+        </RoomTasks>
+    </Room>
+    <Room>
+        <RoomID>2</RoomID>
+        <RoomName>Living room</RoomName>
+        <RoomTemp>20</RoomTemp>
+        <RoomHumidity>10</RoomHumidity>
+        <RoomOxygen>22</RoomOxygen>
+        <RoomHappy>66</RoomHappy>
+        <RoomTasks>
+            <Task>
+                <TaskName>Natural Light</TaskName>
+            </Task>
+            <Task>
+                <TaskName>Temperature</TaskName>
+            </Task>
+        </RoomTasks>
+    </Room>
+</Rooms>

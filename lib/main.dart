@@ -47,8 +47,34 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 25),
+              width: MediaQuery.of(context).size.width - 50,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  const Text("Total devices: 7", style: TextStyle(fontSize: 25),),
+                  const Text("Total plant happiness:\n 80.333 %", style: TextStyle(fontSize: 25),),
+                  Container(
+                    margin: EdgeInsets.only(bottom: 15)
+                  )
+                ],
+              )
+            ),
+            Container(
+              width: MediaQuery.of(context).size.width - 50,
+              margin: const EdgeInsets.only(bottom: 15.0),
+              height: 220,
+              child: DecoratedBox(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color:Colors.blueAccent),
+                  ),
+                  child: CurrentRooms()
+              ),
+            ),
             SizedBox(
               width: MediaQuery. of(context). size. width - 50,
               height: 220,
@@ -56,7 +82,6 @@ class MyHomePage extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   border: Border.all(color:Colors.blueAccent),
-                  color: Colors.grey,
                 ),
                 child: const CurrentTasks()
                 ),

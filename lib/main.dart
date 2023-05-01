@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import './query.dart';
-import './util.dart';
 
 void main() {
   runApp(const MyApp());
